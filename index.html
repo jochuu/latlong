@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>LatLong</title>
+  </head>
+  <body>
+    <h1>Reverse Geocode</h1>
+
+    <div class="options">
+      <input type="radio" id="commaRadio" name="splitType" value="," checked />
+      <label for="html">comma</label><br />
+      <input type="radio" id="spaceRadio" name="splitType" value=" " />
+      <label for="css">space</label><br />
+    </div>
+    <div class="container">
+      <textarea type="text" id="latlong"></textarea>
+      <button id="addressBtn">Get Address</button>
+    </div>
+    <div class="resultContainer"></div>
+  </body>
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
